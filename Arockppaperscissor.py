@@ -16,16 +16,16 @@ print ("\n")
 if inp==sys:
    print (" game is tie")
 elif (inp ==True and sys==2) or(inp==2 and sys ==3) or(inp==3 and sys==1):
-    print (" user won the game")
+    print (" user beat game")
     if sys==2 and inp==1:
         print ("rock beat sessisor")
     elif sys==3 and inp==2:
-        print ("sessisor win over paper")
+        print ("sessisor beat paper")
      
     elif sys==1 and inp==3:
         print (" paper beat rock ")
 elif  (inp==3 and sys==2) or(inp==2 and sys==1):
-    print ("computer won the game")
+    print ("computer beat game")
     if sys==1 and inp==2:
         print ("rock beat sessisor ")
         
